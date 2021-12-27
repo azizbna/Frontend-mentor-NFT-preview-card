@@ -74,10 +74,9 @@ div.img img {
     font-weight: 600;
     font-size: 20px;
     letter-spacing: 1.1px;
-    padding-top: 15px;
 }
 
-.title:hover {
+.title p:hover ,title p:focus{
     color: hsl(178, 100%, 50%);
     cursor: pointer;
 }
@@ -135,7 +134,8 @@ hr {
     margin: 0px 0px 0px 10px;
 }
 
-.creator p span:hover {
+.creator p span:hover,
+.creator p span:focus {
     color: hsl(178, 100%, 50%);
     cursor: pointer;
 }
@@ -153,6 +153,7 @@ hr {
 .attribution {
     font-size: 1.5vh;
     text-align: center;
+    color:white;
 }
 
 .attribution a {
